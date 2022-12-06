@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  font-family: roboto;
+}
+
+a {
+  color: #f9faf8;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+/* this is the top section containing the header and the awesome sections */
+
+.top {
+  background-color: #1f2937;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+  justify-content: flex-start;
+  align-self: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+/* this is the awesome section */
+
+.awesome {
+  display: flex; 
+  background-color: #1f2937;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  gap: 48px;
+}
+
+.awesome-left {
+  display: flex;
+  flex: 1 0 50%;
+  flex-direction: column;
+}
+
+.awesome-main {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.awesome-second {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.awesome-right {
+  display: flex;
+  flex: 1 0 50%;
+  align-items: center;
+}
+
+/* this is the information section */
+.info {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-top: 18px;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 20px;
+}
+
+.info-top {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  max-width: 150px;
+}
+
+/* this is the quote section */
+.quote {
+  padding: 10% 20%;
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-person {
+  font-size: 24px;
+  font-weight: 800;
+  text-align: right;
+}
+
+/* this is the action section */
+.action {
+  margin: 5% 10%;
+}
+
+.action-text-box {
+  display: flex;
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: white;
+  padding: 50px 80px;
+}
+
+.action-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.action-main {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.action-sub {
+}
+
+.action-right {
+  display: flex;
+  flex: 1 0 50%;
+  justify-content: flex-end;
+}
+
+
+/* this is the footer section */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 96px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  
+}
+
+button {
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
